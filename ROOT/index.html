@@ -106,15 +106,28 @@
                        <div class="col-box">
                         <form class="formi">
                             <h3>Student Registration</h3>
-                            <input type="text" class="form-control" placeholder="First Name" id="first">
-                            <input type="text" class="form-control" placeholder="Last Name" id="last">
-                            <input type="number" class="form-control" placeholder="Age"id="age" >
+                            <input type="text" class="form-control" placeholder="Name & Surname" id="nameSurname">
+                            <input type="text" class="form-control" placeholder="Email" id="email">
+                            <input type="number" class="form-control" placeholder="Contact Number"id="contactNumber" >
                             <select class="form-control" id="subject">
                               <option>Select Your Subject</option>
                               <option>Development</option>
                               <option>UX Design</option>
                               <option>Product Design</option>
                             </select>
+
+                            <div class="form-group row">
+                                <div class="col-sm-10">
+                                  <input type="password" class="form-control" id="inputPassword" placeholder="Password" id="passwordin">
+                                </div>
+                              </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="defaultCheck1" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                  Receive Our Newsletter
+                                </label>
+                              </div>
                     
                             <button class="btn btn-primary" type="button" onclick="addStudent()" >Add Student</button>    
                           </form>
@@ -157,7 +170,8 @@
                     </div>
                 </div>
             </div>
-
-   
+            
     </body>
+    <footer><h3>FOOTER</h3></footer>
 </html>
+
